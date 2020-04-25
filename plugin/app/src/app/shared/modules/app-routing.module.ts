@@ -1,3 +1,4 @@
+import { CalendarRoutingModule } from './../../calendar/calendar-routing.module';
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
 import { AppRoutesModel } from "../models/app-routes.model";
@@ -29,6 +30,10 @@ const routes: Routes = [
 	{
 		path: AppRoutesModel.yearProgressions,
 		loadChildren: () => import("../../year-progress/year-progress.module").then(module => module.YearProgressModule)
+	},
+	{
+		path: AppRoutesModel.calendar,
+		loadChildren: () => import("../../calendar/calendar.module").then(module => module.CalendarModule) //todo fix
 	},
 	{
 		path: AppRoutesModel.globalSettings,

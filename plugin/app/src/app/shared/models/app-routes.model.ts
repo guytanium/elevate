@@ -3,6 +3,7 @@ export class AppRoutesModel {
 	public static readonly activities: string = "activities";
 	public static readonly fitnessTrend: string = "fitnessTrend";
 	public static readonly yearProgressions: string = "yearProgressions";
+	public static readonly calendar: string = "calendar";
 	public static readonly globalSettings: string = "globalSettings";
 	public static readonly athleteSettings: string = "athleteSettings";
 	public static readonly zonesSettings: string = "zonesSettings";

@@ -75,6 +75,10 @@ export class AppComponent implements OnInit, OnDestroy {
 			routerLink: AppRoutesModel.yearProgressions,
 			routerLinkActive: true
 		}, {
+			icon: "date_range",
+			routerLink: AppRoutesModel.calendar,
+			routerLinkActive: true
+		}, {
 			icon: "settings",
 			routerLink: AppRoutesModel.globalSettings,
 			routerLinkActive: true
